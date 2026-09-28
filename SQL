@@ -1,0 +1,10 @@
+create database employer;
+use employer;
+show tables;
+create table employer(
+    id int,
+    name varchar(50),
+    age int,
+    salary int,
+    department varchar(20)
+);
