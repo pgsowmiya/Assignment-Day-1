@@ -1,10 +1,9 @@
-create database employer;
-use employer;
-show tables;
-create table employer(
-    id int,
-    name varchar(50),
-    age int,
-    salary int,
-    department varchar(20)
+CREATE DATABASE Employor;
+USE Employor;
+SHOW TABLES;
+CREATE TABLE Employee(
+    Empid INT,
+    Empname VARCHAR(50),
+    Salary INT,
+    Department VARCHAR(20)
 );
